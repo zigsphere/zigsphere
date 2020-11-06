@@ -1,4 +1,4 @@
-# [![joseph ziegler header](https://raw.githubusercontent.com/zigsphere/zigsphere/main/icon/gh-header.png)](https://www.josephziegler.com)
+# [![joseph ziegler header](https://github.com/zigsphere/zigsphere/blob/main/icon/gh_header.png)](https://www.josephziegler.com)
 
 ### Hi there 👋
 
