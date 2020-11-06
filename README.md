@@ -1,3 +1,5 @@
+# [![joseph ziegler header](https://raw.githubusercontent.com/zigsphere/zigsphere/main/icon/gh-header.png)](https://www.josephziegler.com)
+
 ### Hi there 👋
 
 <!--
