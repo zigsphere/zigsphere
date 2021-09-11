@@ -2,7 +2,6 @@
 
 ## Hey, I'm Joe! 👋
 ![Profile views](https://gpvc.arturio.dev/zigsphere)
-[![Discord](https://img.shields.io/discord/419745677585940482.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/k6JUyJws6n)
 [![GitHub followers](https://img.shields.io/github/followers/zigsphere.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/zigsphere?tab=followers)
 
 
