@@ -11,11 +11,10 @@
 <p align="center">
   <a href="mailto:joseph@josephziegler.com"><code>joseph at josephziegler dot com</code></a> │ <a href="https://keybase.io/josephziegler/pgp_keys.asc?fingerprint=0e4c6a23265cbfb7bb93d574e8241b1362d582dc"><code>E824 1B13 62D5 82DC</code></a>
 </p>
-<!--
+
 <p align="center">
   <img width="600" src="resources/github-snake.svg" />
 </p>
--->
 
 <details>
   <summary><b>🏆 Tropheys</b></summary>
