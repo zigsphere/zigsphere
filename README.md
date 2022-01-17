@@ -1,8 +1,6 @@
 <h1 align="center"><code>Hello, I'm Joe! 👋</code></h1>
 
 <p align="center">
-  ![Profile views](https://gpvc.arturio.dev/zigsphere)
-  [![GitHub followers](https://img.shields.io/github/followers/zigsphere.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/zigsphere?tab=followers)
   <a href="https://www.linkedin.com/in/josephziegler"><img src="https://img.shields.io/badge/-josephziegler-0072b1?style=flat&logo=Linkedin&logoColor=white" /></a>
   <a href="https://profile.codersrank.io/user/zigsphere"><img src="https://img.shields.io/badge/-zigsphere-72a0a8?style=flat&logo=CodersRank&logoColor=white" /></a>
   <a href="https://github.com/zigsphere"><img src="https://img.shields.io/badge/-zigsphere-3a3a3a?style=flat&logo=GitHub&logoColor=white" /></a>
@@ -13,10 +11,11 @@
 <p align="center">
   <a href="mailto:joseph@josephziegler.com"><code>joseph at josephziegler dot com</code></a> │ <a href="https://keybase.io/josephziegler/pgp_keys.asc?fingerprint=0e4c6a23265cbfb7bb93d574e8241b1362d582dc"><code>E824 1B13 62D5 82DC</code></a>
 </p>
-
+<!--
 <p align="center">
   <img width="600" src="resources/github-snake.svg" />
 </p>
+-->
 
 <details>
   <summary><b>🏆 Tropheys</b></summary>
