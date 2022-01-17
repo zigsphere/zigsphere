@@ -5,10 +5,12 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  #push:
+   # branches: [ main ]
+  #pull_request:
+   # branches: [ main ]
+  schedule:
+    - cron:  '0 8 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -38,5 +40,5 @@ jobs:
           git config --global user.name 'Joseph Ziegler' 
           git config --global user.email 'joseph@josephziegler.com'
           git add -A
-          git commit -m '[automated commit] test'
+          git commit -m '[automated commit]'
           git push
