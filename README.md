@@ -24,6 +24,13 @@
     </p>
 </details>
 
+<details>
+  <summary><b>Stats</b></summary>
+    <p align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=zigsphere&theme=dark&show_icons=true" />
+    </p>
+</details>
+
 ![Joseph's GitHub stats](https://github-readme-stats.vercel.app/api?username=zigsphere&theme=dark&show_icons=true)
 
 
