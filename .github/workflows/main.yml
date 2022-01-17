@@ -36,12 +36,13 @@ jobs:
       
       - name: Check for modified files
         id: git-check
-        run: cd ./repo; echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+        run: date; cd ./repo; echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
   
       - name: Update changes in GitHub repository
         if: steps.git-check.outputs.modified == 'true'
         run:  |
           cd ./repo/
+          date
           git config --global user.name 'Joseph Ziegler' 
           git config --global user.email 'joseph@josephziegler.com'
           git add -A
