@@ -17,7 +17,7 @@
 </p>
 
 <details>
-  <summary><b>🏆 Tropheys</b></summary>
+  <summary><b>🏆 Trophies</b></summary>
     <p align="center">
       <a href="https://profile.codersrank.io/user/zigsphere"><img src="https://github-profile-trophy.vercel.app/?username=zigsphere&theme=dracula&row=1" /></a>
     </p>
