@@ -31,8 +31,6 @@
     </p>
 </details>
 
-![Joseph's GitHub stats](https://github-readme-stats.vercel.app/api?username=zigsphere&theme=dark&show_icons=true)
-
 
 I'm a systems engineer (DevOps/SRE) in the San Francisco Bay Area who is passionate about automating server infrastructure and delivering high-speed deployments for applications and services, ensuring they are reliable and highly available. I do enjoy speaking in several DevOps-related communities, mentoring people with DevOps, SRE, Infrastructure, and all the tools that fall into all of those various categories. 
  
