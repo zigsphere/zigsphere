@@ -10,7 +10,7 @@ on:
   #pull_request:
   #  branches: [ main ]
   schedule:
-    - cron:  '20 5 * * *'
+    - cron:  '30 5 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -42,7 +42,6 @@ jobs:
         if: steps.git-check.outputs.modified == 'true'
         run:  |
           cd ./repo/
-          date
           git config --global user.name 'Joseph Ziegler' 
           git config --global user.email 'joseph@josephziegler.com'
           git add -A
