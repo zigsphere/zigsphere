@@ -40,5 +40,5 @@ jobs:
           git config --global user.name 'Joseph Ziegler' 
           git config --global user.email 'joseph@josephziegler.com'
           git add -A
-          git commit -m '[automated commit]'
+          git commit -m '[Automated Commit by GH Actions]'
           git push
