@@ -23,16 +23,17 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
       - uses: Platane/snk@master
         with:
-    # github user name to read the contribution graph from (**required**)
-    # using action context var `github.repository_owner` or specified user
           github_user_name: ${{ github.repository_owner }}
-
-    # path of the generated gif file
-    # If left empty, the gif file will not be generated
-          gif_out_path: dist/github-snake.gif
-
-    # path of the generated svg file
-    # If left empty, the svg file will not be generated
           svg_out_path: dist/github-snake.svg
+
+      - name: Update changes in GitHub repository
+        if: steps.git-check.outputs.modified == 'true'
+        run:  |
+          git config --global user.name 'Joseph Ziegler' 
+          git config --global user.email 'joseph@josephziegler.com'
+          git add -A
+          git commit -m '[automated commit] test'
+          git push
