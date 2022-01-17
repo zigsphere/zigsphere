@@ -10,8 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:joseph@josephziegler.com"><code>joseph at josephziegler dot com</code></a> │ <a href="https://keybase.io/josephziegler/pgp_keys.asc?fingerprint=0e4c6a23265cbfb7bb93d574e8241b1362d582dc"><code>E824 1B13 62D5 82DC</code></a><br />
-  <img src="https://gpvc.arturio.dev/zigsphere" /><a href="https://github.com/zigsphere?tab=followers"><img src="https://img.shields.io/github/followers/zigsphere.svg?style=social&label=Follow&maxAge=2592000" /></a>
+  <a href="mailto:joseph@josephziegler.com"><code>joseph at josephziegler dot com</code></a> │ <a href="https://keybase.io/josephziegler/pgp_keys.asc?fingerprint=0e4c6a23265cbfb7bb93d574e8241b1362d582dc"><code>E824 1B13 62D5 82DC</code></a>
 </p>
 
 <p align="center">
