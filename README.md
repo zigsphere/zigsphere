@@ -6,7 +6,7 @@
   <a href="https://github.com/zigsphere"><img src="https://img.shields.io/badge/-zigsphere-3a3a3a?style=flat&logo=GitHub&logoColor=white" /></a>
   <a href="https://www.josephziegler.com"><img src="https://img.shields.io/badge/-josephziegler.com-ff5757?style=flat&logo=zerply&logoColor=white" /></a>
   <a href="https://keybase.io/josephziegler"><img src="https://img.shields.io/badge/-josephziegler-5e78ef?style=flat&logo=keybase&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/-Zig#3569-5865F2?style=flat&logo=discord&logoColor=white" />
+  <a href="https://www.discord.com"><img src="https://img.shields.io/badge/-Zig%233569-5865F2?style=flat&logo=discord&logoColor=white" /></a>
 </p>
 
 <p align="center">
