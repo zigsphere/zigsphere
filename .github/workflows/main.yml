@@ -24,13 +24,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          path: './repo/'
+      
       - uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-snake.svg
-
+          svg_out_path: ./repo/resources/github-snake.svg
+  
       - name: Update changes in GitHub repository
-        if: steps.git-check.outputs.modified == 'true'
         run:  |
           git config --global user.name 'Joseph Ziegler' 
           git config --global user.email 'joseph@josephziegler.com'
