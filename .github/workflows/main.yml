@@ -42,16 +42,27 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
       
-      - name: Check for modified files
-        id: git-check
-        run: date; cd ./repo; echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
-  
-      - name: Update changes in GitHub repository
-        if: steps.git-check.outputs.modified == 'true'
-        run:  |
-          cd ./repo/
-          git config --global user.name 'Joseph Ziegler' 
-          git config --global user.email 'joseph@josephziegler.com'
-          git add -A
-          git commit -m '[Automated Commit by GH Actions]'
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional. Commit message for the created commit.
+          # Defaults to "Apply automatic changes"
+          commit_message: Automated Snake Change
+
+          # Optional. Local and remote branch name where commit is going to be pushed
+          #  to. Defaults to the current branch.
+          #  You might need to set `create_branch: true` if the branch does not exist.
+          branch: master
+
+          # Optional. Options used by `git-commit`.
+          # See https://git-scm.com/docs/git-commit#_options
+          commit_options: '--no-verify --signoff'
+          file_pattern: '*.svg'
+
+          # Optional. Local file path to the repository.
+          # Defaults to the root of the repository.
+          repository: .
+
+          # Optional commit user and author settings
+          commit_user_name: Snake Runner
+          commit_user_email: joseph@josephziegler.com
+          commit_author: Joseph Ziegler <joseph@josephziegler.com>
