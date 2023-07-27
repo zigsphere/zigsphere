@@ -32,7 +32,6 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: ./repo/resources/github-snake.svg
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
