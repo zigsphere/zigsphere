@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img width="600" src="dist/github-snake.svg" />
+  <img width="600" src="dist/github-snake-dark.svgg" />
 </p>
 
 <details>
